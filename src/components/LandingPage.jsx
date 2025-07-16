@@ -64,20 +64,14 @@ const LandingPage = () => {
           </p>
 
           <div className="flex flex-col xss:flex-row gap-4 items-center justify-center lg:justify-start">
-            {/* <a
-              href="/assets/Arjun_CV.pdf"
-              download
-              className="inline-flex items-center gap-2 bg-lime-400  text-black font-semibold py-3 px-6 rounded-full shadow-lg transition-all hover:shadow-[0_0_10px_#a3e635] "
-            >
-              Download CV <FaDownload className="text-lg" />
-            </a> */}
+            
             {/* <MediaBtn/> */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
             >
-              <div className="flex flex-row gap-8 items-center justify-center lg:justify-start">
+              <div className="flex  xs:flex-row xs:gap-8 gap-4 items-center justify-start xs:justify-center lg:justify-start">
                 {/* Download CV Button */}
                 <a
                   href="https://drive.google.com/file/d/1TpXxnkLsZDOn8lKjxjpTYA5aWHVwlEeX/view?usp=sharing"
@@ -85,7 +79,7 @@ const LandingPage = () => {
                   download
                   className="inline-flex items-center gap-2 bg-lime-400 hover:bg-lime-500 text-black font-semibold xs:py-3 py-2 xs:px-6 px-4 rounded-full shadow-lg transition-all"
                 >
-                  Download CV <FaDownload className="text-lg" />
+                 <span className="xs:flex hidden"> Download </span>  CV <FaDownload className="text-lg" />
                 </a>
 
                 <LinkedIn />
@@ -98,16 +92,6 @@ const LandingPage = () => {
         </motion.div>
       </div>
 
-      {/* Scroll Down Animation */}
-      {/* <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1, y: [0, -10, 0] }}
-        transition={{ repeat: Infinity, duration: 1.5 }}
-        className="text-center mt-16"
-      >
-        <p className="text-gray-400 text-sm">Scroll down to explore</p>
-        <div className="text-white text-2xl mt-2 animate-bounce">↓</div>
-      </motion.div> */}
     </section>
   );
 };

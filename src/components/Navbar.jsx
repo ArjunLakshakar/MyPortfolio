@@ -11,7 +11,7 @@ const Navbar = () => {
   const closeDrawer = () => setOpen(false);
 
   return (
-    <header className={`fixed top-0 left-0 w-full z-50 bg-transparent  ${open ? `backdrop-blur-none` : `backdrop-blur-md` } px-4 py-4`}>
+    <header className={`fixed top-0 left-0 w-full z-50 bg-transparent  ${open ? `backdrop-blur-none` : `backdrop-blur-md`} px-4 py-4`}>
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         {/* Logo */}
         <div
@@ -110,8 +110,9 @@ const Navbar = () => {
               animate={{ x: 0 }}
               exit={{ x: "100%" }}
               transition={{ type: "spring", stiffness: 300, damping: 30 }}
-              className="md:hidden fixed top-0 right-0 h-full w-[70vw] max-w-xs bg-opacity-95 bg-gradient-to-br from-black via-[#0b0b27] to-[#180d29] shadow-lg z-50 p-6 flex flex-col gap-4 text-white"
+              className="md:hidden fixed top-0 right-0 h-full w-[70vw] max-w-xs bg-opacity-95 bg-gradient-to-br from-black via-[#0b0b27] to-[#180d29] shadow-lg z-50 overflow-y-auto p-6 flex flex-col gap-4 text-white"
             >
+
               <div className="flex justify-between items-center mb-6 bg-[#0f0f0f] p-2  rounded-full">
                 <span className="text-2xl font-bold" style={{ fontFamily: "Tangerine" }}>
                   Arjun Lakshakar
