@@ -7,6 +7,7 @@ module.exports = {
     extend: {
       fontFamily: {
         outfit: ['Outfit', 'sans-serif'],
+         signature: ['"Passions Conflict"', 'cursive'],
       },
       screens: {
         'xs': '480px',     // Extra small devices (phones)

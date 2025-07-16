@@ -8,6 +8,8 @@ const projects = [
     title: 'YouTube Clone',
     category: 'Full Stack',
     image: '/images/youtube-clone.png',
+    previewLink: "you-tube-clone-eight-inky.vercel.app/",
+    githubLink: 'https://github.com/ArjunLakshakar/YouTube-Clone',
     description:
       'A MERN-based video-sharing platform featuring uploads, channels, likes, comments, and category-based filters. Secure JWT-auth APIs and modern responsive UI with Tailwind CSS. ' +
       'Includes channel dashboard, user authentication, and related video section. Mimics YouTube UI with modal-based uploads and toast notifications.',
@@ -17,6 +19,8 @@ const projects = [
     title: 'TechVistra',
     category: 'Corporate Site',
     image: '/images/techvistra.png',
+    previewLink: "https://www.techvistra.com",
+    githubLink: 'https://github.com/ArjunLakshakar',
     description:
       'Official corporate site built with React and Tailwind. Fully responsive, SEO-optimized, and supports dynamic content through reusable components and API integrations. ' +
       'Collaborated with designers to maintain brand consistency. Developed secure APIs and ensured accessibility across devices.',
@@ -26,6 +30,8 @@ const projects = [
     title: 'ShoppyGloble',
     category: 'E-Commerce',
     image: '/images/shoppy-globle.png',
+    previewLink: "shoppy-globe-full-stack.vercel.app",
+    githubLink: 'https://github.com/ArjunLakshakar/ShoppyGlobe-FullStack',
     description:
       'MERN Stack e-commerce app with cart, checkout modal, JWT auth, Redux for state, and clean responsive design.',
   },
@@ -34,6 +40,8 @@ const projects = [
     title: 'JobPortal',
     category: 'Job Platform',
     image: '/images/job-portal.png',
+    previewLink: "jobportal-frontend-c9ck.vercel.app/",
+    githubLink: 'https://github.com/ArjunLakshakar/jobportal-frontend',
     description:
       'Java Spring Boot backend with React frontend. Role-based auth, recruiter tools, job listing filters, and admin panel.',
   },
@@ -42,6 +50,8 @@ const projects = [
     title: 'Online Library',
     category: 'Book Explorer',
     image: '/images/online-library.png',
+    previewLink: "online-library-system-red.vercel.app",
+    githubLink: 'https://github.com/ArjunLakshakar/Online-Library-System',
     description:
       'React app using Open Library API. Features: category filters, trending books, clean responsive UI with Tailwind.',
   },
@@ -87,17 +97,22 @@ const ProjectGallery = () => {
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5, delay: index * 0.1 }}
             viewport={{ once: true }}
-            className="relative rounded-xl overflow-hidden group hover:scale-[1.03] transition-transform duration-300"
+            className=" relative rounded-xl overflow-hidden group hover:scale-[1.03] transition-transform duration-300"
           >
             <Card
               img={project.image}
               heading={project.title}
               para={project.description}
+              previewLink={project.previewLink}
+              githubLink={project.githubLink}
             />
             <div className="absolute top-3 right-3 bg-[#8985cd] text-gray-900 text-sm xs:text-base px-3 py-1 rounded-full font-semibold">
               {project.category}
             </div>
-            <h3 className="text-white text-lg font-medium">{project.title}</h3>
+            {/* <h3 className="text-white text-lg font-medium">{project.title}</h3> */}
+            {/* <div className="hover:hidden absolute bottom-0 left-0 w-full bg-gradient-to-t from-black/80 to-transparent p-4 ">
+              <h3 className="text-white text-lg font-medium">{project.title}</h3>
+            </div> */}
           </motion.div>
         ))}
       </div>
@@ -117,11 +132,16 @@ const ProjectGallery = () => {
               img={project.image}
               heading={project.title}
               para={project.description}
+              previewLink={project.previewLink}
+              githubLink={project.githubLink}
             />
             <div className="absolute top-3 right-3 bg-[#8985cd] text-gray-900  text-sm xs:text-sm px-2 py-1 rounded-full font-semibold">
               {project.category}
             </div>
-            <h3 className="text-white text-lg font-medium">{project.title}</h3>
+            {/* <h3 className="text-white text-lg font-medium">{project.title}</h3> */}
+            {/* <div className="absolute bottom-0 left-0 w-full bg-gradient-to-t from-black/80 to-transparent p-4">
+              <h3 className="text-white text-lg font-medium">{project.title}</h3>
+            </div> */}
           </motion.div>
         ))}
       </div>

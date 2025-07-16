@@ -77,7 +77,7 @@ const LandingPage = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
             >
-              <div className="flex flex-col xss:flex-row gap-8 items-center justify-center lg:justify-start">
+              <div className="flex flex-row gap-8 items-center justify-center lg:justify-start">
                 {/* Download CV Button */}
                 <a
                   href="/assets/Arjun_CV.pdf"
