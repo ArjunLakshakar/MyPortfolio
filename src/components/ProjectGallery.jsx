@@ -8,7 +8,7 @@ const projects = [
     title: 'YouTube Clone',
     category: 'Full Stack',
     image: '/images/youtube-clone.png',
-    previewLink: "you-tube-clone-eight-inky.vercel.app/",
+    previewLink: "https://you-tube-clone-eight-inky.vercel.app/",
     githubLink: 'https://github.com/ArjunLakshakar/YouTube-Clone',
     description:
       'A MERN-based video-sharing platform featuring uploads, channels, likes, comments, and category-based filters. Secure JWT-auth APIs and modern responsive UI with Tailwind CSS. ' +
@@ -30,7 +30,7 @@ const projects = [
     title: 'ShoppyGloble',
     category: 'E-Commerce',
     image: '/images/shoppy-globle.png',
-    previewLink: "shoppy-globe-full-stack.vercel.app",
+    previewLink: "https://shoppy-globe-full-stack.vercel.app",
     githubLink: 'https://github.com/ArjunLakshakar/ShoppyGlobe-FullStack',
     description:
       'MERN Stack e-commerce app with cart, checkout modal, JWT auth, Redux for state, and clean responsive design.',
@@ -40,7 +40,7 @@ const projects = [
     title: 'JobPortal',
     category: 'Job Platform',
     image: '/images/job-portal.png',
-    previewLink: "jobportal-frontend-c9ck.vercel.app/",
+    previewLink: "https://jobportal-frontend-c9ck.vercel.app/",
     githubLink: 'https://github.com/ArjunLakshakar/jobportal-frontend',
     description:
       'Java Spring Boot backend with React frontend. Role-based auth, recruiter tools, job listing filters, and admin panel.',
@@ -50,7 +50,7 @@ const projects = [
     title: 'Online Library',
     category: 'Book Explorer',
     image: '/images/online-library.png',
-    previewLink: "online-library-system-red.vercel.app",
+    previewLink: "https://online-library-system-red.vercel.app",
     githubLink: 'https://github.com/ArjunLakshakar/Online-Library-System',
     description:
       'React app using Open Library API. Features: category filters, trending books, clean responsive UI with Tailwind.',
