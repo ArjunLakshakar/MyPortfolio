@@ -5,7 +5,7 @@ const AboutOverview = () => {
   return (
     <section
       id="about"
-      className="bg-gradient-to-br from-black via-[#0d0d2b] to-[#1b0f2e] text-white py-20 px-4 sm:px-10 md:px-20"
+      className=" overflow-x-hidden bg-gradient-to-br from-black via-[#0d0d2b] to-[#1b0f2e] text-white py-20 px-4 sm:px-10 md:px-20"
     >
       {/* Heading */}
       <motion.h2
@@ -36,12 +36,14 @@ const AboutOverview = () => {
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ delay: 0.3, duration: 0.7 }}
           viewport={{ once: true }}
-          className="w-full lg:w-1/2 flex justify-center"
+          // className="w-full lg:w-1/2 flex justify-center"
+          className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg flex justify-center mx-auto"
+
         >
           <iframe
             src="https://lottie.host/embed/0426f82a-227f-4c62-9812-ebc8efea8247/1VpaniEt2X.lottie"
             title="about-animation"
-            className="w-[280px] xss:w-[340px] xs:w-[400px] md:w-[460px] h-[280px] md:h-[460px] rounded-xl"
+            className="w-[280px] xss:w-[300px] xs:w-[400px] md:w-[460px] h-[280px] md:h-[460px] rounded-xl bg-red-50"
             frameBorder="0"
           />
         </motion.div>
@@ -70,8 +72,6 @@ const AboutOverview = () => {
           </p>
         </motion.div>
       </div>
-
-      \
     </section>
   );
 };

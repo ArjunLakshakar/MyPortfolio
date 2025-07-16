@@ -22,7 +22,7 @@ const fadeIn = (direction = "up", delay = 0) => ({
 
 const AboutMe = () => {
   return (
-    <section className="min-h-screen bg-gradient-to-br from-black via-[#0d0d2b] to-[#1b0f2e] text-gray-300 flex flex-col py-20 px-6 md:px-20 gap-10">
+    <section className=" overflow-x-hidden min-h-screen bg-gradient-to-br from-black via-[#0d0d2b] to-[#1b0f2e] text-gray-300 flex flex-col py-20 px-6 md:px-20 gap-10">
       {/* Main Flex Row */}
       <div className="flex flex-col-reverse md:flex-row items-center gap-10 flex-1 -mb-16">
         {/* Left: Text Content */}
@@ -81,7 +81,7 @@ const AboutMe = () => {
 
         {/* Right: Animation */}
         <motion.div
-          className="w-full xs:w-1/3 flex justify-center"
+            className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg flex justify-center mx-auto"
           variants={fadeIn("right", 0.3)}
           initial="hidden"
           whileInView="show"
@@ -90,7 +90,7 @@ const AboutMe = () => {
           <iframe
             src="https://lottie.host/embed/883156f7-0290-41a1-99e8-550b6214a270/ue4GPQhg4C.lottie"
             title="about-animation"
-            className="w-[280px] xss:w-[340px] xs:w-[400px] md:w-[460px] h-[280px] md:h-[460px] rounded-xl"
+            className="w-[240px] xss:w-[280px] xs:w-[400px] md:w-[460px] h-[280px] md:h-[460px] rounded-xl"
             frameBorder="0"
           />
         </motion.div>
@@ -101,9 +101,9 @@ const AboutMe = () => {
         initial={{ opacity: 0, y: -10 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ delay: 1, duration: 1, repeat: Infinity, repeatType: "loop", ease: "easeInOut" }}
-        className="text-center -mb-10"
+        className=" text-center -mb-10"
       >
-        <p className="text-gray-400 text-sm">Scroll down to explore</p>
+        <p className="sm:flex hidden text-gray-400 text-sm">Scroll down to explore</p>
         <div className="text-white text-2xl mt-2 animate-bounce">↓</div>
       </motion.div>
     </section>
