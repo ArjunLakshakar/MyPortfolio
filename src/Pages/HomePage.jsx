@@ -30,12 +30,8 @@ const HomePage = () => {
             <section id="projects">
                 <ProjectGallery />
             </section>
-
             <Skills />
-            {/* <TechTimeline/> */}
-            {/* <BlogSection/> */}
             {/* <SkillsSection/> */}
-            {/* <ES/> */}
         </div>
     )
 }

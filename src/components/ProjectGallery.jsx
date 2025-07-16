@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import { motion } from 'framer-motion';
-import Card from './animation/card';
-import useSound from 'use-sound';
+import Card from './animation/CardTemp';
 
 const projects = [
   {
