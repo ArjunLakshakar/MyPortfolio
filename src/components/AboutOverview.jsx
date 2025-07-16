@@ -58,7 +58,7 @@ const AboutOverview = () => {
             A passionate <span className="text-lime-400">web developer</span> turning <span className="text-lime-400">ideas</span> into visually stunning, user-friendly websites.
           </span>
 
-          <p className="text-gray-400 text-base sm:text-lg leading-relaxed">
+          <p className="text-gray-400 text-base sm:text-lg leading-relaxed ">
             I'm <span className="text-blue-400 font-semibold">Arjun Lakshakar</span>, a dedicated full-stack developer skilled in
             <span className="text-blue-400"> Java (Spring Boot)</span>,
             <span className="text-blue-400"> React.js</span>, and
@@ -71,16 +71,7 @@ const AboutOverview = () => {
         </motion.div>
       </div>
 
-      {/* Scroll Down Animation */}
-      {/* <motion.div
-        initial={{ opacity: 0, y: 0 }}
-        animate={{ opacity: 1, y: [0, -10, 0] }}
-        transition={{ repeat: Infinity, duration: 1.5 }}
-        className="text-center mt-20"
-      >
-        <p className="text-gray-500 text-sm">Scroll down to explore</p>
-        <div className="text-white text-2xl animate-bounce mt-2">↓</div>
-      </motion.div> */}
+      \
     </section>
   );
 };

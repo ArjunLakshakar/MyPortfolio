@@ -84,8 +84,9 @@ const StyledWrapper = styled.div`
   }
 
   .img {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
+    object-cover;
     font-size: 25px;
     font-weight: 700;
     border: 1px solid #1da1f2;

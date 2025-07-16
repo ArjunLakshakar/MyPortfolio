@@ -80,7 +80,8 @@ const LandingPage = () => {
               <div className="flex flex-row gap-8 items-center justify-center lg:justify-start">
                 {/* Download CV Button */}
                 <a
-                  href="/assets/Arjun_CV.pdf"
+                  href="https://drive.google.com/file/d/1TpXxnkLsZDOn8lKjxjpTYA5aWHVwlEeX/view?usp=sharing"
+                  target="_blank"
                   download
                   className="inline-flex items-center gap-2 bg-lime-400 hover:bg-lime-500 text-black font-semibold xs:py-3 py-2 xs:px-6 px-4 rounded-full shadow-lg transition-all"
                 >
