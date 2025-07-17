@@ -6,7 +6,7 @@ const Experience = () => {
             range: "Nov 2024 – Apr 2025",
             title: "Java Full Stack Developer Intern",
             company: "TechVistra, Pune",
-            link: null,
+            link: "https://techvistra.com/",
             details: [
                 "Developed and maintained full-stack web apps using Java (Spring Boot) and React.js.",
                 "Built and deployed TechVistra's official site with responsive, SEO-friendly design.",
@@ -18,7 +18,7 @@ const Experience = () => {
             range: "18 March – 18 July 2025",
             title: "MERN Stack Developer Certification",
             company: "Internshala Trainings",
-            link: "https://udemy.com",
+            link: "https://drive.google.com/drive/u/0/folders/1HaE3M0LH4RAqkS_MYJtLFzqXEDgaT8cp",
             details: [
                 "Created real-world full-stack projects using MongoDB, Express, React, Node.js.",
                 "Covered authentication, REST APIs, file upload, and deployment.",
@@ -91,7 +91,8 @@ const Experience = () => {
                 {/* Lottie Animation */}
                 <div className="w-full lg:w-1/3 flex-col items-center md:items-start lg:flex hidden">
                     <iframe
-                        src="https://lottie.host/embed/8161e01a-b711-4730-897d-f76e4cc9ebd2/qhduI8wxk1.lottie"
+                        src="https://lottie.host/embed/207d9b77-6ffd-4c77-8a1f-71a4beddfa1b/UtkxYO1xvQ.lottie"
+                        // src="https://lottie.host/embed/8161e01a-b711-4730-897d-f76e4cc9ebd2/qhduI8wxk1.lottie"
                         title="experience-lottie"
                         className="w-full h-[300px] sm:h-[400px] md:h-[500px] max-w-[450px] "
                         style={{ border: "none" }}

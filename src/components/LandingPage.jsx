@@ -59,7 +59,7 @@ const LandingPage = () => {
           </h1>
 
           <p className="text-gray-300 text-sm xss:text-base sm:text-lg max-w-xl mx-auto lg:mx-0">
-            Hi, I'm  &nbsp;  <span className="text-blue-400 text-4xl" style={{ fontFamily: "Passions Conflict" }} >Arjun</span> — a passionate developer who creates interactive
+            Hi, I'm  &nbsp;  <span className="text-blue-400 text-4xl" style={{ fontFamily: "Passions Conflict" }} > Arjun</span> — a passionate developer who creates interactive
             websites and apps with React, Tailwind, and Node.js.
           </p>
 
