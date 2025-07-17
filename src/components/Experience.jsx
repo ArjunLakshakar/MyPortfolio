@@ -40,7 +40,7 @@ const Experience = () => {
 
             <div className="flex flex-col-reverse md:flex-row gap-16 px-2 sm:px-4 md:px-10">
                 {/* Timeline Section */}
-                <div className="border-l-2 border-gray-700 space-y-16 md:w-2/3 pl-6 sm:pl-10">
+                <div className="border-l-2 border-gray-700 space-y-16 lg:w-2/3 pl-6 sm:pl-10">
                     {experiences.map((exp, index) => (
                         <div
                             key={index}
@@ -89,11 +89,11 @@ const Experience = () => {
                 </div>
 
                 {/* Lottie Animation */}
-                <div className="w-full md:w-1/3 flex flex-col items-center md:items-start">
+                <div className="w-full lg:w-1/3 flex-col items-center md:items-start lg:flex hidden">
                     <iframe
                         src="https://lottie.host/embed/8161e01a-b711-4730-897d-f76e4cc9ebd2/qhduI8wxk1.lottie"
                         title="experience-lottie"
-                        className="w-full h-[300px] sm:h-[400px] md:h-[500px] max-w-[450px]"
+                        className="w-full h-[300px] sm:h-[400px] md:h-[500px] max-w-[450px] "
                         style={{ border: "none" }}
                     ></iframe>
                     {/* <p className="text-lime-400 text-sm mt-4 text-center md:text-left font-semibold">

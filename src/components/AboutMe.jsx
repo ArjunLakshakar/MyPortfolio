@@ -24,10 +24,10 @@ const AboutMe = () => {
   return (
     <section className=" overflow-x-hidden min-h-screen bg-gradient-to-br from-black via-[#0d0d2b] to-[#1b0f2e] text-gray-300 flex flex-col py-20 px-6 md:px-20 gap-10">
       {/* Main Flex Row */}
-      <div className="flex flex-col-reverse md:flex-row items-center gap-10 flex-1 -mb-16">
+      <div className="flex flex-col-reverse lg:flex-row items-center gap-10 flex-1 -mb-16">
         {/* Left: Text Content */}
         <motion.div
-          className="w-full md:w-2/3 md:text-left"
+          className="w-full lg:w-2/3 md:text-left"
           variants={fadeIn("left", 0.1)}
           initial="hidden"
           whileInView="show"
@@ -103,7 +103,8 @@ const AboutMe = () => {
         transition={{ delay: 1, duration: 1, repeat: Infinity, repeatType: "loop", ease: "easeInOut" }}
         className=" text-center -mb-10"
       >
-        <p className="sm:flex hidden text-gray-400 text-sm">Scroll down to explore</p>
+        <p className="text-gray-400 text-sm max-[1100px]:hidden">Scroll down to explore</p>
+
         <div className="text-white text-2xl mt-2 animate-bounce">↓</div>
       </motion.div>
     </section>
