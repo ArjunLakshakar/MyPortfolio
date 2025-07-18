@@ -64,7 +64,7 @@ const Navbar = () => {
           {/* Social Icons */}
           <div className="flex items-center gap-6 ml-6 text-white text-lg">
             <a
-              href="https://www.linkedin.com/in/arjunlakshakar"
+              href="https://www.linkedin.com/in/arjun-lakshakar-31686b309/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-lime-400 transition"
@@ -166,7 +166,7 @@ const Navbar = () => {
 
               <div className="flex items-center gap-4 text-white text-xl">
                 <a
-                  href="https://www.linkedin.com/in/arjunlakshakar"
+                  href="https://www.linkedin.com/in/arjun-lakshakar-31686b309/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-lime-400"
