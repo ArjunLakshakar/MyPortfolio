@@ -74,7 +74,7 @@ const AboutMe = () => {
               <h3 className="text-4xl font-extrabold text-white">
                 {/* <CountUp end={999} duration={3} enableScrollSpy scrollSpyDelay={500} /> */}∞
               </h3>
-              <p className="mt-2 text-sm uppercase text-gray-500 tracking-wide">Lines of Coffee</p>
+              <p className="mt-2 text-sm uppercase text-gray-500 tracking-wide">Lines of Code</p>
             </div>
           </motion.div>
         </motion.div>
