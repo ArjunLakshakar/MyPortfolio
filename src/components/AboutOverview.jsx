@@ -43,7 +43,7 @@ const AboutOverview = () => {
           <iframe
             src="https://lottie.host/embed/0426f82a-227f-4c62-9812-ebc8efea8247/1VpaniEt2X.lottie"
             title="about-animation"
-            className="w-[280px] xss:w-[300px] xs:w-[400px] md:w-[460px] h-[280px] md:h-[440px] rounded-xl bg-gradient-to-r from-[#d3d6f3] via-[#b9c0ec] to-[#80a6ff]"
+            className="w-[280px] xss:w-[300px] xs:w-[400px] md:w-[460px] h-[280px] md:h-[440px] rounded-xl "
             frameBorder="0"
           />
         </motion.div>
