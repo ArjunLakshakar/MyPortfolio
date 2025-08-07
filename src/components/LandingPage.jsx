@@ -10,7 +10,7 @@ const LandingPage = () => {
       id="home"
       className="min-h-screen bg-gradient-to-br from-black via-[#0d0d2b] to-[#1b0f2e] text-white flex flex-col items-center justify-center px-4 xss:px-6 pt-32 pb-12"
     >
-      <div className="max-w-[95%] w-full flex flex-col lg:flex-row gap-12 items-center justify-between lg:py-0 pb-12">
+      <div className="max-w-[95%] w-full flex flex-col lg:flex-row lg:gap-12 gap-20 items-center justify-between lg:py-0 pb-12">
         {/* Lottie Animation */}
         <motion.div
           initial={{ opacity: 0, x: -50 }}
