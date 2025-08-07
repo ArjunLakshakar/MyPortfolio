@@ -4,14 +4,14 @@ const Experience = () => {
     const experiences = [
         {
             range: "Nov 2024 – Apr 2025",
-            title: "Java Full Stack Developer Intern",
+            title: "Full Stack Developer Intern",
             company: "TechVistra, Pune",
             link: "https://techvistra.com/",
             details: [
-                "Developed and maintained full-stack web apps using Java (Spring Boot) and React.js.",
-                "Built and deployed TechVistra's official site with responsive, SEO-friendly design.",
-                "Created reusable React components for dynamic UI rendering.",
-                "Built secure RESTful APIs, handled auth, and optimized SQL queries.",
+                "Developed and maintained full-stack web applications using Java and the MERN stack.",
+                "Built and deployed the official TechVistra corporate website with a responsive, SEO-optimized design.",
+                "Designed reusable React components to enable dynamic content rendering and maintain a clean UI .",
+                "Developed secure RESTful APIs, implemented JWT-based authentication, and optimized SQL/NoSQL queries.",
             ],
         },
         {

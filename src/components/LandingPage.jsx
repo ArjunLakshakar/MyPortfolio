@@ -35,7 +35,7 @@ const LandingPage = () => {
           className="w-full lg:w-[60%] text-center lg:text-left space-y-6 px-2 sm:px-6"
         >
 
-          <h1 className="text-2xl font-semibold xs:font-normal xs:text-4xl md:text-6xl font-[Outfit] leading-tight bg-gradient-to-b from-white via-[#a5a5a5] to-[#5c5c5c] bg-clip-text text-transparent flex flex-col gap-4">
+          <h1 className="text-2xl xs:font-medium font-normal xs:text-4xl md:text-6xl font-[Outfit] leading-tight bg-gradient-to-b from-white via-[#a5a5a5] to-[#5c5c5c] bg-clip-text text-transparent flex flex-col gap-4">
             <span>
               I am a&nbsp;
               <span className="inline-block">
@@ -74,7 +74,7 @@ const LandingPage = () => {
               <div className="flex  xs:flex-row xs:gap-8 gap-4 items-center justify-start xs:justify-center lg:justify-start">
                 {/* Download CV Button */}
                 <a
-                  href="https://drive.google.com/file/d/1TpXxnkLsZDOn8lKjxjpTYA5aWHVwlEeX/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1me7t0Igpt1_BcFrdjcbZN3DL6gTsBalZ/view?usp=sharing"
                   target="_blank"
                   download
                   className="inline-flex items-center gap-2 bg-lime-400 hover:bg-lime-500 text-black font-semibold xs:py-3 py-2 xs:px-6 px-4 rounded-full shadow-lg transition-all"

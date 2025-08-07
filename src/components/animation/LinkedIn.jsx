@@ -20,7 +20,7 @@ const LinkedIn = () => {
           </div>
         </div>
         <div className="text">
-          <a className="icon" href="https://www.linkedin.com/in/arjun-lakshakar-31686b309/"> 
+          <a className="icon" href="https://www.linkedin.com/in/arjun-lakshakar-31686b309/">
             <div className="layer">
               <span />
               <span />
@@ -84,18 +84,30 @@ const StyledWrapper = styled.div`
   }
 
   .img {
-    width: 60px;
-    height: 60px;
-    object-cover;
-    font-size: 25px;
-    font-weight: 700;
-    border: 1px solid #1da1f2;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #fff;
-  }
+  width: 60px;
+  height: 60px;
+  font-size: 25px;
+  font-weight: 700;
+  border: 1px solid #1da1f2;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  overflow: hidden;
+  padding: 0;        
+}
+
+.img img {
+  width: 120%;
+
+  background-color: #1b0f2e;
+  height: 100%;
+  object-fit: cover;
+  
+  display: block;
+}
+
 
   .name {
     font-size: 17px;

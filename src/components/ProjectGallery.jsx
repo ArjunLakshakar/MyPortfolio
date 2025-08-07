@@ -33,7 +33,7 @@ const projects = [
     previewLink: "https://shoppy-globe-full-stack.vercel.app",
     githubLink: 'https://github.com/ArjunLakshakar/ShoppyGlobe-FullStack',
     description:
-      'MERN Stack e-commerce app with cart, checkout modal, JWT auth, Redux for state, and clean responsive design.',
+      'Full-stack e-commerce platform with React frontend and Node.js backend. Features include product listings, cart management, user authentication, and order processing. ',
   },
   {
     id: 4,
@@ -43,7 +43,8 @@ const projects = [
     previewLink: "https://jobportal-frontend-c9ck.vercel.app/",
     githubLink: 'https://github.com/ArjunLakshakar/jobportal-frontend',
     description:
-      'Java Spring Boot backend with React frontend. Role-based auth, recruiter tools, job listing filters, and admin panel.',
+      "A full-stack job portal built with React and Java Spring.Role-based auth, recruiter tools, job listing filters, and admin panel. Built with scalable architecture and seamless user interactions." 
+      // "Responsive design with Tailwind CSS, secure JWT authentication, and RESTful APIs. Includes admin dashboard for managing job postings and user applications.",
   },
   {
     id: 5,
@@ -53,7 +54,7 @@ const projects = [
     previewLink: "https://online-library-system-red.vercel.app",
     githubLink: 'https://github.com/ArjunLakshakar/Online-Library-System',
     description:
-      'React app using Open Library API. Features: category filters, trending books, clean responsive UI with Tailwind.',
+      'React app using Open Library API. Features: category filters, trending books, clean responsive UI with Tailwind. Added loading states, dynamic search, and error handling.',
   },
 ];
 
