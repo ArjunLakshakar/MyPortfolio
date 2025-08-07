@@ -24,7 +24,7 @@ const AboutMe = () => {
   return (
     <section className=" overflow-x-hidden min-h-screen bg-gradient-to-br from-black via-[#0d0d2b] to-[#1b0f2e] text-gray-300 flex flex-col items-center justify-center py-20 px-6 md:px-20 gap-10">
       {/* Main Flex Row */}
-      <div className="max-w-[95%] w-full flex flex-col-reverse lg:flex-row items-center justify-between  gap-10 flex-1 -mb-16">
+      <div className="max-w-[95%] w-full flex flex-col-reverse lg:flex-row items-center justify-center  lg:gap-10 gap-16 flex-1 -mb-16">
         {/* Left: Text Content */}
         <motion.div
           className="w-full lg:w-2/3 md:text-left"
