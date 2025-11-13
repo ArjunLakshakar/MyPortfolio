@@ -1,22 +1,53 @@
 import React from "react";
-import { FaReact, FaNodeJs, FaJava, FaHtml5, FaCss3Alt, FaDatabase } from "react-icons/fa";
-import { SiSpringboot, SiTailwindcss, SiMongodb, SiRedux } from "react-icons/si";
+import { FaReact, FaNodeJs, FaJava, FaHtml5, FaCss3Alt, FaDatabase, FaPython } from "react-icons/fa";
+import { SiSpringboot, SiTailwindcss, SiMongodb, SiRedux, SiNextdotjs, SiJavascript, SiExpress, SiTypescript } from "react-icons/si";
 import { motion } from "framer-motion";
 import Button from "./animation/Button";
 
 const Skills = () => {
     const skills = [
-        { icon: <FaReact size={40} color="#61DAFB" />, name: "React.js" },
-        { icon: <SiRedux size={40} color="#764ABC" />, name: "Redux" },
-        { icon: <FaNodeJs size={40} color="#68A063" />, name: "Node.js" },
-        { icon: <SiTailwindcss size={40} color="#38bdf8" />, name: "Tailwind CSS" },
-        { icon: <SiMongodb size={40} color="#47A248" />, name: "MongoDB" },
+        // Frontend Core
         { icon: <FaHtml5 size={40} color="#e34c26" />, name: "HTML5" },
         { icon: <FaCss3Alt size={40} color="#264de4" />, name: "CSS3" },
-        { icon: <FaJava size={40} color="#f89820" />, name: "Java" },
-        { icon: <SiSpringboot size={40} color="#6DB33F" />, name: "Spring Boot" },
+        { icon: <SiJavascript size={40} color="#f7df1e" />, name: "JavaScript" },
+        { icon: <FaReact size={40} color="#0681b4" />, name: "React.js" },
+        { icon: <SiNextdotjs size={40} color="black" />, name: "Next.js" },
+        { icon: <SiTypescript size={40} color="#3178c6" />, name: "TypeScript" },
+        { icon: <SiTailwindcss size={40} color="#38bdf8" />, name: "Tailwind CSS" },
+
+        // State Management
+        { icon: <SiRedux size={40} color="#764ABC" />, name: "Redux" },
+
+        // Backend
+        { icon: <FaNodeJs size={40} color="#68A063" />, name: "Node.js" },
+        { icon: <SiExpress size={40} color="#000000" />, name: "Express.js" },
+
+        // Database
+        { icon: <SiMongodb size={40} color="#47A248" />, name: "MongoDB" },
         { icon: <FaDatabase size={40} color="#4DB33D" />, name: "SQL" },
+
+        // Other Languages / Backend Tech
+        { icon: <FaJava size={40} color="#d65509" />, name: "Java" },
+        { icon: <SiSpringboot size={40} color="#6DB33F" />, name: "Spring Boot" },
+        { icon: <FaPython size={40} color="#3472A6" />, name: "Python" },
     ];
+
+    // const skills = [
+    //     { icon: <SiNextdotjs size={40} color="black" />, name: "Next.js" },
+    //     { icon: <FaReact size={40} color="#0681b4" />, name: "React.js" },
+    //     { icon: <SiRedux size={40} color="#764ABC" />, name: "Redux" },
+    //     { icon: <SiJavascript size={40} color="#f7df1e" />, name: "JavaScript" },
+    //       { icon: <SiTypescript size={40} color="#3178c6" />, name: "TypeScript" },
+    //     { icon: <FaNodeJs size={40} color="#68A063" />, name: "Node.js" },
+    //     { icon: <SiTailwindcss size={40} color="#38bdf8" />, name: "Tailwind CSS" },
+    //     { icon: <SiMongodb size={40} color="#47A248" />, name: "MongoDB" },
+    //     { icon: <FaHtml5 size={40} color="#e34c26" />, name: "HTML5" },
+    //     { icon: <FaCss3Alt size={40} color="#264de4" />, name: "CSS3" },
+    //     { icon: <FaJava size={40} color="#d65509" />, name: "Java" },
+    //     { icon: <SiSpringboot size={40} color="#6DB33F" />, name: "Spring Boot" },
+    //     { icon: <FaDatabase size={40} color="#4DB33D" />, name: "SQL" },
+        
+    // ];
 
     return (
         <section className="bg-gradient-to-r from-black via-[#0b0b27] to-[#180d29] text-white py-20 px-4 md:px-20">

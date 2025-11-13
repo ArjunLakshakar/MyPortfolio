@@ -74,7 +74,7 @@ const LandingPage = () => {
               <div className="flex  xs:flex-row xs:gap-8 gap-4 items-center justify-start xs:justify-center lg:justify-start">
                 {/* Download CV Button */}
                 <a
-                  href="https://drive.google.com/file/d/1me7t0Igpt1_BcFrdjcbZN3DL6gTsBalZ/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1wXVJXb16ZcEhYdci_EUJ-mnK2UwooaDj/view?usp=sharing"
                   target="_blank"
                   download
                   className="inline-flex items-center gap-2 bg-lime-400 hover:bg-lime-500 text-black font-semibold xs:py-3 py-2 xs:px-6 px-4 rounded-full shadow-lg transition-all"

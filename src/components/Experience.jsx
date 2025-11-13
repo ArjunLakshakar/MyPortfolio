@@ -3,7 +3,7 @@ import React from "react";
 const Experience = () => {
     const experiences = [
         {
-            range: "Nov 2024 – Apr 2025",
+            range: "Jan 2025 – July 2025",
             title: "Full Stack Developer Intern",
             company: "TechVistra, Pune",
             link: "https://techvistra.com/",
